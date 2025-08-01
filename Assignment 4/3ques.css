@@ -1,0 +1,56 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+#blog-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color:midnightblue;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.author {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  color:brown;
+  margin-bottom: 30px;
+}
+
+.blog-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.read-more {
+  background-color:brown;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color:brown;
+}
